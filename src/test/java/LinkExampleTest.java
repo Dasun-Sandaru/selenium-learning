@@ -7,8 +7,8 @@ import org.testng.annotations.Test;
 
 import java.util.List;
 
-public class linkExampleText {
-    
+public class LinkExampleTest {
+
     WebDriver driver;
 
     @BeforeMethod
@@ -16,7 +16,7 @@ public class linkExampleText {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://www.leafground.com/link.xhtml;jsessionid=node01a44afk2udw0918v0qm0skwpw66591851.node0");
-        
+
     }
 
     @Test
